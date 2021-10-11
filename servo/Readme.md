@@ -32,3 +32,12 @@ Size 23.2*12.5*22.0mm
 
 ![ServoBedradingsDiagram](ServoBedradingsDiagram.png)
 
+Most standard radio control (RC) servos have three wires, each a different color.  Usually, they are either  black, red, and white, or they are brown, red, and orange/yellow:
+
+- brown or black = ground (GND, battery negative terminal)
+- red = servo power (Vservo, battery positive terminal)
+- orange, yellow, white, or blue = servo control signal line
+
+
+
+Die FS90 mikro servo het bruin vir grond, rooi vir lewendig of krag en oranje vir beheersein.

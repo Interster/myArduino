@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Filter.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.87253924"
+     inkscape:cx="291.67743"
+     inkscape:cy="394.82465"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="3831"
+     inkscape:window-y="1457"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path21781" />
+    </marker>
+    <linearGradient
+       id="linearGradient1732"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1730" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 51.442909,122.566 H 64.934267"
+       id="path42"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke-width:0.264583;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect66"
+       width="27.440046"
+       height="11.204686"
+       x="64.941444"
+       y="117.07753"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 92.152823,122.566 h 17.150027 l 1.5e-4,19.665"
+       id="path101"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 109.303,122.566 h 16.00654"
+       id="path103"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 99.698835,142.231 H 117.9922"
+       id="path105"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 109.218,147.262 -1.4e-4,11.54425 6.259,-2.5e-4 -6.25886,6.52028 -5.86049,-6.52028 h 5.86035"
+       id="path107"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 99.698833,147.26159 117.9922,147.262"
+       id="path105-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.115778px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 35.069571,122.0855 c 2.359489,-5.95107 4.720971,-2.54871 5.243264,-1.13357 0.461989,1.25174 1.241568,5.29148 2.395632,5.25741 1.647056,-0.0486 2.976078,-5.14427 2.976078,-5.14427"
+       id="path2555"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.115778px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.3423,122.72927 c 2.35949,-5.95107 4.72097,-2.54871 5.24326,-1.13357 0.46199,1.25174 1.24157,5.29148 2.39564,5.25741 1.64705,-0.0486 2.97607,-5.14427 2.97607,-5.14427"
+       id="path2555-9"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="75.213341"
+       y="109.43152"
+       id="text5557"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan5555"
+         style="stroke-width:0.264583"
+         x="75.213341"
+         y="109.43152">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="120.87462"
+       y="148.42693"
+       id="text8765"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan8763"
+         style="stroke-width:0.264583"
+         x="120.87462"
+         y="148.42693">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="35.478344"
+       y="183.15318"
+       id="text12951"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan12949"
+         style="stroke-width:0.264583"
+         x="35.478344"
+         y="183.15318">f<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan14009">-3dB</tspan> = 1/(2piRC)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 48.214,86.421612 V 30.929842"
+       id="path21138"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 35.175113,76.718 H 128.87434"
+       id="path21140"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 48.214163,37.904 c 0,0 34.568645,-0.303234 42.14949,0 7.092845,0.283714 13.948747,20.923344 13.948747,20.923344 l 5.15498,17.587558"
+       id="path21388"
+       sodipodi:nodetypes="cscc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.200671px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 48.214163,37.904 c 0,0 19.866755,-0.303513 24.223505,0 4.07629,0.283976 8.01641,20.942621 8.01641,20.942621 l 2.96259,17.603761"
+       id="path21388-2"
+       sodipodi:nodetypes="cscc"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="M 114.31912,50.943266 84.60221,56.098241"
+       id="path21776"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:44.8889;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="102.79623"
+       y="39.117149"
+       id="text23786"
+       transform="translate(11.522882,9.0970121)"
+       inkscape:export-filename="C:\WPy64-3940\notebooks\myArduino\versnelling\Prente\FilterEffek.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="102.79623"
+         y="39.117149"
+         id="tspan30416">Effect of </tspan><tspan
+         x="102.79623"
+         y="52.346276"
+         id="tspan30418">filter</tspan></text>
+  </g>
+</svg>

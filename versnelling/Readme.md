@@ -22,3 +22,13 @@ The 3 axis ADXL335 from Analog Devices is the latest in a long,  proven line of 
 ![GY-61-Layout02](GY-61-Layout02.jpg)
 
 ![GY-61-Layout03](GY-61-Layout03.jpg)
+
+
+
+
+
+# Bespreking van filter
+
+Dit is nodig om 'n filter op te sit om die effek van ho"e frekwensie geraas te verminder.
+
+![FilterEffek](Prente/FilterEffek.png)
