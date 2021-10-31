@@ -18,7 +18,7 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
   digitalWrite(RELAY_PIN, HIGH);
-  delay(500);
+  delay(10000);
   digitalWrite(RELAY_PIN, LOW);
-  delay(500);
+  delay(10000);
 }

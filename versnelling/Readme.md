@@ -32,3 +32,17 @@ The 3 axis ADXL335 from Analog Devices is the latest in a long,  proven line of 
 Dit is nodig om 'n filter op te sit om die effek van ho"e frekwensie geraas te verminder.
 
 ![FilterEffek](Prente/FilterEffek.png)
+
+
+# Karakteriseer die geraas van die sensor
+
+Gebruik die skets versnellingmeet.ino
+
+Log nou data van die sensor.
+Gebruik die volgende terminaal opdrag om die data vanaf die seriepoort te log:
+
+(stty raw; cat > received.log) < /dev/ttyUSB0
+
+Die Arduino was by die ttyUSB0 poort ingeprop.  Begin die skets loop en dan begin die opdrag hierbo.  Dan onderbreek net hierdie stelling en dan word die data na die teksleer gestuur.
+
+Nou kan hierdie data analiseer word.
