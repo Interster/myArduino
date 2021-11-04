@@ -16,3 +16,15 @@ $$
 $$
 
 Where $\theta$ is the pitch angle.
+
+
+
+
+# Te doen
+
+Maak 'n draad op waarmee die servo en die versnellingsmeter gelyk in die 5V krag kan inprop.  Onthou 2 servos.
+Maak seker Arduino kan genoeg stroom gee vir die servos en versnellingsmeter
+Sit tweede servo by in program
+Teken stroombaan in Fritzing (dus vertaal Fritzing en teken stroombaan en dan sit dit in hierdie dokument)
+
+Die servo uitset het baie geraas.  Vind uit waar dit vandaan kom.  Miskien moet daar 'n filter kom
