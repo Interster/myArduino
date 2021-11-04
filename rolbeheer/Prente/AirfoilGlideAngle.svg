@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="AirfoilGlideAngle.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1805361"
+     inkscape:cx="297.74608"
+     inkscape:cy="390.92408"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="3831"
+     inkscape:window-y="1067"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path11347" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path11368" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 27.349595,100.359 H 144.16481"
+       id="path42"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 141.81582,56.172513 -14.90875,5.694816 c 0,0 -5.87807,2.135403 -9.79954,2.655509 -1.41759,0.188016 -3.96793,0.324582 -4.00268,-1.364984 -0.0293,-1.425645 3.36877,-3.207772 6.13784,-4.196724 2.76906,-0.988954 7.86821,-1.262926 7.86821,-1.262926 z"
+       id="path44"
+       sodipodi:nodetypes="ccssscc"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1.05833194,0.26458299;stroke-dashoffset:0"
+       d="M 114.71851,65.270877 35.206715,100.359"
+       id="path46"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.506087px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 151.06838,133.31031 -30.51862,2.67621 c 0,0 -11.97492,0.85367 -19.48933,-0.23503 -2.716415,-0.39358 -7.497646,-1.47138 -6.67552,-4.587 0.693742,-2.62893 7.90365,-4.12649 13.53592,-4.49747 5.63227,-0.371 15.19234,1.78228 15.19234,1.78228 z"
+       id="path44-4"
+       sodipodi:nodetypes="ccssscc"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 151.06838,133.31 19.89756,12.08181"
+       id="path2289"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 152.52052,133.31 h 18.90472"
+       id="path2404"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="166.02559"
+       y="141.47751"
+       id="text4991"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan4989"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:symbol;-inkscape-font-specification:symbol;stroke-width:0.264583"
+         x="166.02559"
+         y="141.47751">d</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow2Lend)"
+       d="M 102.956,108.86455 V 131.732 h 22.86735"
+       id="path11052"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="95.625748"
+       y="112.91278"
+       id="text12835"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan12833"
+         style="stroke-width:0.264583"
+         x="95.625748"
+         y="112.91278">z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="122.86923"
+       y="142.67273"
+       id="text15851"
+       inkscape:export-filename="C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\AirfoilGlideAngle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan15849"
+         style="stroke-width:0.264583"
+         x="122.86923"
+         y="142.67273">x</tspan></text>
+  </g>
+</svg>
