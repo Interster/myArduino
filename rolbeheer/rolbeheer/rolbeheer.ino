@@ -1,9 +1,22 @@
-// Rolbeheer
-//
-// Rolbeheer van 'n sweeftuig.
-// Meet die rolhoek met 'n ADXL335 versnellingsmeter
-// Beheer dan servos om rolroere te deflekteer om die rolhoek
-// na 0 setpunt te beheer.
+/* Rolbeheer
+
+Rolbeheer van 'n sweeftuig.
+Meet die rolhoek met 'n ADXL335 versnellingsmeter
+Beheer dan servos om rolroere te deflekteer om die rolhoek
+na 0 setpunt te beheer.
+
+Die servo moet gekoppel wees aan digitale pin 3
+op die Arduino.
+
+*/
+
+// Include the Servo library 
+#include <Servo.h> 
+// Declare the Servo pin 
+int servoPin = 3; 
+// Create a servo object 
+Servo Servo1; 
+
 
 //Analog read pins
 const int xPin = 0;
@@ -23,6 +36,9 @@ double z;
 
 void setup(){
   Serial.begin(9600); 
+
+  // We need to attach the servo to the used pin number 
+  Servo1.attach(servoPin); 
 }
 
 void loop(){
@@ -50,7 +66,21 @@ void loop(){
   Serial.print(" | y: ");
   Serial.print(y);
   Serial.print(" | z: ");
-  Serial.println(z);
+  Serial.print(z);
 
+  // Stel servo tot die hoek rondom x-as 
+  // mits dit -180 grade tot +180 grade is
+  if (x > 180) {
+    Servo1.write(360 - x);
+    Serial.print(" | servo: ");
+    Serial.print(360 - x);} 
+  if (x < 180) {
+    Servo1.write(x);
+    Serial.print(" | servo: ");
+    Serial.print(x);
+    }
+
+  Serial.println(" ");
+  
   delay(100);//just here to slow down the serial output - Easier to read
 }

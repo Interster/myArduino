@@ -15,6 +15,7 @@ $$
 \ddot{\theta} = \frac{T}{I_{xx}}
 $$
 
+<<<<<<< HEAD
 Waar $\theta$ die heihoek is.
 
 Die volgende diagram beskryf die beheerstelsel:
@@ -32,3 +33,18 @@ $h(t) \rightarrow H(s) \rightarrow H(z)$
 Die digitale beheer het 'n ekstra filter effek wat dit inbring.  Die volgende diagram is nog nie reg/volledig nie, maar dit is soos die diagram van die s- na die z-transform gaan:
 
 ![FilterEffek](C:\WPy64-3950\notebooks\myArduino\rolbeheer\Prente\FilterEffek.png)
+=======
+Where $\theta$ is the pitch angle.
+
+
+
+
+# Te doen
+
+Maak 'n draad op waarmee die servo en die versnellingsmeter gelyk in die 5V krag kan inprop.  Onthou 2 servos.
+Maak seker Arduino kan genoeg stroom gee vir die servos en versnellingsmeter
+Sit tweede servo by in program
+Teken stroombaan in Fritzing (dus vertaal Fritzing en teken stroombaan en dan sit dit in hierdie dokument)
+
+Die servo uitset het baie geraas.  Vind uit waar dit vandaan kom.  Miskien moet daar 'n filter kom
+>>>>>>> 0fac35acad4fc24a35ec41d205c9c16e7e63433c
