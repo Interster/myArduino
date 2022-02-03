@@ -46,3 +46,13 @@ Gebruik die volgende terminaal opdrag om die data vanaf die seriepoort te log:
 Die Arduino was by die ttyUSB0 poort ingeprop.  Begin die skets loop en dan begin die opdrag hierbo.  Dan onderbreek net hierdie stelling en dan word die data na die teksleer gestuur.
 
 Nou kan hierdie data analiseer word.
+
+
+
+## Die gebruik van 'n onderbreking (Interrupt)
+
+Dit is nodig om 'n interrupt te gebruik om die tydsberekening van metings te verseker.  Andersins sal die metings moontlik nie teen 'n vaste monsterfrekwensie kan gebeur nie.
+
+Interrupts word as volg met 'n Arduino gedoen:
+
+https://electronoobs.com/eng_arduino_tut140.php

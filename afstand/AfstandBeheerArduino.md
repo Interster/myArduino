@@ -1,4 +1,12 @@
-Kooplys:
+# Afstandbeheer Arduino
+
+Hierdie tutoriaal word net gebruik om die kommunikasie protokol te toets.  Dit word nog nie gebruik om die afstandbeheer te bou nie.
+
+Dit is 'n "Hallo world" program.
+
+
+
+## Kooplys:
 
 2 x NANO 5V 16MHz - CH340 USB Chipset - Compatible with Arduino®
 
@@ -10,11 +18,11 @@ https://www.robotics.org.za/NRF24L01-ANT?search=nrf
 
 
 
+## Tutoriale vir vliegtuig afstandbeheer
+
 Gebruik hierdie tutorial om die remote te bou:
 
 https://youtu.be/7rcVeFFHcFM
-
-
 
 Dit word in hierdie vliegtuig gebruik:
 
