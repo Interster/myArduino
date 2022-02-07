@@ -17,6 +17,11 @@ https://www.robotics.org.za/NANO-CH340?search=arduino%20nano
 https://www.robotics.org.za/NRF24L01-ANT?search=nrf
 
 
+## Kode vir toets
+
+https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/
+
+
 
 ## Tutoriale vir vliegtuig afstandbeheer
 
