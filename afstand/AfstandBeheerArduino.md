@@ -62,7 +62,7 @@ Die program het nie die eerste keer gewerk nie.  Die radios het dalk nie kommuni
        if (msg[0] == 111){delay(10);digitalWrite(LED1, HIGH);}
        else {digitalWrite(LED1, LOW);}
        delay(10);}}
-   else{Serial.println("No radio available");}}
+   else{Serial.println("No radio available");}
 ```
 
 -   Probeer ander nommer kanaal om die radio sein oor te stuur, dit kan moontlik die sein op 'n ander frekwensie sit en dan sal dit nie inmeng met wifi nie.  Verander die kanaal deur die ```radio.setChannel(125);``` opdrag te gebruik soos in die volgende forum:  https://arduino.stackexchange.com/questions/79452/nrf24l01-channel-switching To prevent these signals from causing issues, we suggest using the **highest 25 channels** your nRF24L01+ module. Reason for this is WiFi uses most of the lower channels. (From https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/)

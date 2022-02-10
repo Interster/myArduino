@@ -25,8 +25,9 @@ void setup() {
 
 void loop() {
   if (radio.available()) {
-    char text[32] = "";
+    char text[32] = "Message:  ";
     radio.read(&text, sizeof(text));
     Serial.println(text);
   }
+  else{Serial.println("No radio available");}
 }
