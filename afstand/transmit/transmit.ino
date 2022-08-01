@@ -28,5 +28,5 @@ void loop() {
   const char text[] = "Hello World";
   radio.write(&text, sizeof(text));
   Serial.println("Sent message");
-  delay(1000);
+  delay(5000);
 }
