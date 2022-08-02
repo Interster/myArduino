@@ -66,20 +66,32 @@ Die program het nie die eerste keer gewerk nie.  Die radios het dalk nie kommuni
    else{Serial.println("No radio available");}
 ```
 
--   Probeer ander nommer kanaal om die radio sein oor te stuur, dit kan moontlik die sein op 'n ander frekwensie sit en dan sal dit nie inmeng met wifi nie.  Verander die kanaal deur die ```radio.setChannel(125);``` opdrag te gebruik soos in die volgende forum:  https://arduino.stackexchange.com/questions/79452/nrf24l01-channel-switching To prevent these signals from causing issues, we suggest using the **highest 25 channels** your nRF24L01+ module. Reason for this is WiFi uses most of the lower channels. (From https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/)
--   Sit 10$\mu F$ kapasitor in om geraas op kraglyn te filter
+-   Probeer ander nommer kanaal om die radio sein oor te stuur, dit kan moontlik die sein op 'n ander frekwensie sit en dan sal dit nie inmeng met wifi nie.  Verander die kanaal deur die ```radio.setChannel(125);``` opdrag te gebruik soos in die volgende forum:  https://arduino.stackexchange.com/questions/79452/nrf24l01-channel-switching To prevent these signals from causing issues, we suggest using the **highest 25 channels** your nRF24L01+ module. Reason for this is WiFi uses most of the lower channels. (From https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/) -> 2022-08-02:  Het hierdie probeer, dit het nie gewerk nie.
+-   Sit 10$\mu F$ kapasitor in om geraas op kraglyn te filter  -> 2022-08-02:  Het hierdie probeer, dit het nie gewerk nie.  Die kapasitor was moontlik ook te ver van die sender en/of die 3.3V lyn van die Arduino het nie genoegsame stroom gelewer nie.
+
+![4_DecouplingCap3_3VNotWork](C:\temp\myArduino\afstand\Prente\4_DecouplingCap3_3VNotWork.jpg)
+
 -   Sit elke nano op sy eie 3V battery
--   Vanaf https://www.arrow.com/en/research-and-events/articles/arduino-rf-communication-tutorial-with-nrf24l01-plus :  You can try a few software tricks to improve range as well,  referenced in the setup function of both Arduino code examples. Power  levels are defined by the radio.setPALevel(), and vary between  RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, and RF24_PA_max. 
--   Set the data rates with the radio.setDataRate() function.  RF24_250KBPS signifies 250 kbps, which is the slowest speed available  and it offers the longest range of data transmission. RF24_1MBPS  signifies 1Mbps and RF24_2MBPS signifies 2 Mbps, giving a higher  transfer speed, but less range.  Lower the datarate for better communication
--   You can also set the channel of your radio between 2.400 and 2.524 GHz using the radio.setChannel(). At that reading, values of  0-124 correspond to 2.4 GHz plus the channel number in units of MHz. So  radio.setChannel(21). Your radio will therefore communicate at 2.421  GHz. While this is a bit more nebulous speed-wise, different channels  will certainly give better performance depending on your surrounding  environment. Note that 2.483.5 GHz is normally the top legal limit for  this type of transmission, so be sure to keep that in mind.
+
+https://youtu.be/aztm_8qGVfc 
+
+Volgens bogenoemde is Nano is nie sterk genoeg nie moet ekstern krag gee met regulator (spanningsreguleerder).
+
+![5_VoltageRegulator](C:\temp\myArduino\afstand\Prente\5_VoltageRegulator.PNG)
+
+-   Vanaf https://www.arrow.com/en/research-and-events/articles/arduino-rf-communication-tutorial-with-nrf24l01-plus :  You can try a few software tricks to improve range as well,  referenced in the setup function of both Arduino code examples. Power  levels are defined by the radio.setPALevel(), and vary between  RF24_PA_MIN, RF24_PA_LOW, RF24_PA_HIGH, and RF24_PA_max.    -> 2022-08-02:  Het hierdie probeer, dit het nie gewerk nie.  Het dit op RF24_PA_MIN gesit.
+-   Set the data rates with the radio.setDataRate() function.  RF24_250KBPS signifies 250 kbps, which is the slowest speed available  and it offers the longest range of data transmission. RF24_1MBPS  signifies 1Mbps and RF24_2MBPS signifies 2 Mbps, giving a higher  transfer speed, but less range.  Lower the datarate for better communication   -> 2022-08-02:  Het hierdie probeer, dit het nie gewerk nie.  Het dit op die 250KBPS gehad.
+-   You can also set the channel of your radio between 2.400 and 2.524 GHz using the radio.setChannel(). At that reading, values of  0-124 correspond to 2.4 GHz plus the channel number in units of MHz. So  radio.setChannel(21). Your radio will therefore communicate at 2.421  GHz. While this is a bit more nebulous speed-wise, different channels  will certainly give better performance depending on your surrounding  environment. Note that 2.483.5 GHz is normally the top legal limit for  this type of transmission, so be sure to keep that in mind.   -> 2022-08-02:  Het hierdie probeer, dit het nie gewerk nie.  Het dit op kanaal 124 gehad om dit op ander frekwensie as WiFi te sit.
 -   Stel die krag vlak van die RF24 na minimum soos in volgende tutoriaal:  https://www.youtube.com/watch?v=57pdX6b0sfw en sit die datatempo na die laagste instelling:
 ``` C++
 radio.setPALevel(RF24_PA_MIN);
 radio.setDataRate(RF24_250KBPS);
 ```
--   Gee die RF24 module krag van af die groter Arduinos (Leonardo en Uno).
+  -> 2022-08-02:  Het hierdie probeer, dit het nie gewerk nie.  
 
+-   Gee die RF24 module krag van af die groter Arduinos (Leonardo en Uno).   -> 2022-08-02:  Het hierdie probeer, dit het nie gewerk nie.  
 
+- Koop volgende module om meer krag aan die senders te gee:  NRF24L01 RF 2.4 GHz 5.5V-3.3V Regulator Base Module.  Dit het ingeboude kapasitore en spanningsreguleerders.  Kan tot 12V vir hierdie basis module gee en dit sal werk.
 
 Hier is die detail dokumentasie vir die RF24 library:
 

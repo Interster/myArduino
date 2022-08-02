@@ -19,15 +19,21 @@ void setup() {
   Serial.begin(9600);
   radio.begin();
   radio.openReadingPipe(0, address);
+  radio.setChannel(124); //select a channel (in which there is no noise!) 0 ... 125
+  radio.setDataRate(RF24_250KBPS); // Lowest datarate
   radio.setPALevel(RF24_PA_MIN);
   radio.startListening();
 }
 
 void loop() {
+  
   if (radio.available()) {
+    Serial.println("Begin");
     char text[32] = "Message:  ";
     radio.read(&text, sizeof(text));
     Serial.println(text);
   }
-  else{Serial.println("No radio available");}
+  else{
+    Serial.println("No radio available");
+  }
 }

@@ -20,6 +20,8 @@ void setup() {
   
   radio.begin();
   radio.openWritingPipe(address);
+  radio.setChannel(124); //select a channel (in which there is no noise!) 0 ... 125
+  radio.setDataRate(RF24_250KBPS); // Lowest datarate
   radio.setPALevel(RF24_PA_MIN);
   radio.stopListening();
 }
@@ -28,5 +30,5 @@ void loop() {
   const char text[] = "Hello World";
   radio.write(&text, sizeof(text));
   Serial.println("Sent message");
-  delay(5000);
+  //delay(5000);
 }
