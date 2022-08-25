@@ -20,9 +20,10 @@ void setup() {
   
   radio.begin();
   radio.openWritingPipe(address);
-  radio.setChannel(124); //select a channel (in which there is no noise!) 0 ... 125
+  radio.setChannel(0); //select a channel (in which there is no noise!) 0 ... 125
+  radio.setAutoAck(false);
   radio.setDataRate(RF24_250KBPS); // Lowest datarate
-  radio.setPALevel(RF24_PA_MIN);
+  radio.setPALevel(RF24_PA_MAX);
   radio.stopListening();
 }
 
