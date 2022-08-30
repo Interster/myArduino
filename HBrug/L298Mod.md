@@ -12,5 +12,6 @@ This module is based on the very popular L298 Dual H-Bridge Motor Driver Integra
    -Power-On LED indicator
    -4 Direction LED indicators
 
-
 https://www.instructables.com/Arduino-Modules-L298N-Dual-H-Bridge-Motor-Controll/
+
+https://create.arduino.cc/projecthub/ryanchan/how-to-use-the-l298n-motor-driver-b124c5
