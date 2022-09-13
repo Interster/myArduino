@@ -81,11 +81,15 @@ while done==False:
     
 
     # Convert the integers to a comma-separated string
-    angle_value_list = [str(servo_0_angle),str(servo_1_angle),str(
-    servo_2_angle),str(servo_3_angle),str(servo_4_angle),str(servo_5_angle)]    
-    send_string = ','.join(angle_value_list)
-    send_string += "\n"
+    #angle_value_list = [str(servo_0_angle),str(servo_1_angle),str(
+    #servo_2_angle),str(servo_3_angle),str(servo_4_angle),str(servo_5_angle)]    
+    #send_string = ','.join(angle_value_list)
+    #send_string += "\n"
  
+    
+    send_string = str(servo_0_angle)
+    send_string += "\n"
+
     # Send the string. Make sure you encode it before you send it to the Arduino.
     ser.write(send_string.encode('utf-8'))
     
