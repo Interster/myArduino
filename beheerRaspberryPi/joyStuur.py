@@ -76,7 +76,7 @@ while done==False:
     axis = joystick.get_axis( 1 )
     # Skakel die beheerstok as oor na 'n servo hoek
     servo_0_angle = axis*90 + 90
-    print("Axis {} value: {:>6.2f}".format(1, axis))
+    print("Axis {} value: {:>6.2f}".format(1, servo_0_angle))
 
     
 
