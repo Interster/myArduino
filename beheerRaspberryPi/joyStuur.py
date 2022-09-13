@@ -15,15 +15,15 @@ import time # Module needed to add delays in the code
 # being received. After 1 second, the function will return with whatever data
 # it has. The readline() function will only wait 1 second for a complete line 
 # of input.
-ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
+ser = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
  
-# Intialize the integer values we'll send to Arduino
-servo_0_angle = 90
-servo_1_angle = 7
-servo_2_angle = 63
-servo_3_angle = 85
-servo_4_angle = 162
-servo_5_angle = 45
+# Inisialiseer die heelgetal waardes wat na Arduino gestuur gaan word 
+servo_0_angle = 0
+servo_1_angle = 0
+servo_2_angle = 0
+servo_3_angle = 0
+servo_4_angle = 0
+servo_5_angle = 0
  
 # Get rid of garbage/incomplete data
 ser.flush()
@@ -75,6 +75,9 @@ while done==False:
     clock.tick(20)
     axis = joystick.get_axis( 1 )
     print("Axis {} value: {:>6.2f}".format(1, axis))
+
+    # Skakel die beheerstok as oor na 'n servo hoek
+    servo_0_angle = axis*90 + 90
 
     # Convert the integers to a comma-separated string
     angle_value_list = [str(servo_0_angle),str(servo_1_angle),str(
