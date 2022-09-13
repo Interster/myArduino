@@ -74,10 +74,11 @@ while done==False:
     # Limit to 20 frames per second
     clock.tick(20)
     axis = joystick.get_axis( 1 )
-    print("Axis {} value: {:>6.2f}".format(1, axis))
-
     # Skakel die beheerstok as oor na 'n servo hoek
     servo_0_angle = axis*90 + 90
+    print("Axis {} value: {:>6.2f}".format(1, axis))
+
+    
 
     # Convert the integers to a comma-separated string
     angle_value_list = [str(servo_0_angle),str(servo_1_angle),str(
