@@ -122,6 +122,12 @@ Gebruik die sigblad "Seininhoud.ods" om die besige kanale te identifiseer.
 
 Kies dan 'n stil kanaal om te gebruik.
 
+Dit kom uit gevorderde tutoriaal oor RF24:
+
+https://www.youtube.com/watch?v=61kWj6zu4Uw
+
+https://www.youtube.com/watch?v=a2FBa4MK66M
+
 
 
 ## Tutoriale vir vliegtuig afstandbeheer
