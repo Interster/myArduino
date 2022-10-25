@@ -114,6 +114,16 @@ https://nrf24.github.io/RF24/classRF24.html#ab6a711a9cc14fb459a4a1698b8665d82
 
 
 
+## Meet hoe besig die kanale is in omgewing
+
+Gebruik die "scanner" voorbeeld uit die RF24 voorbeelde en meet die seininhoud in die omgewing.
+
+Gebruik die sigblad "Seininhoud.ods" om die besige kanale te identifiseer.
+
+Kies dan 'n stil kanaal om te gebruik.
+
+
+
 ## Tutoriale vir vliegtuig afstandbeheer
 
 Gebruik hierdie tutorial om die remote te bou:
