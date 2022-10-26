@@ -24,3 +24,15 @@ Werk ongelukkig met 3.3V.  Dit beteken dat om die Arduino se 5V krag te gebruik 
 https://www.robotics.org.za/LEVEL-4P?search=logic%20level
 
 Kan dit egter op 'n power supply toets wat 3.3V gee en indien dit werk kan dit net van batterye voorsien word en dan sal dit werk.
+
+# SPI 3.3 Volt logic level converter circuit
+
+Moet die versnellingsmeter met 'n SPI (serial peripheral interface) op die Arduino koppel.
+
+![5_VoltageRegulator](Prente\SPI_circuit.jpg)
+
+The creation of myIMU has a dark secret. If you're not using I2C, address 0x6B (defualt), you can specify your port during the construction. From the example,
+
+``` 
+LSM6DS3 myIMU( SPI_MODE, 10 );
+```
