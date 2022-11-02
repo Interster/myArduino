@@ -128,6 +128,18 @@ https://www.youtube.com/watch?v=61kWj6zu4Uw
 
 https://www.youtube.com/watch?v=a2FBa4MK66M
 
+Hier is die seininhoud van die TV kamer in die huis.  Dit is naby aan WiFi.  Dus is die WiFi seker tussen kanaal 25 en 55 se bandwydte.  Dus is dit beter om iets vanaf kanaal 100 af te kies waar daar geen ander seine is nie.  Maar die verstek van kanaal 1 is ook redelik stil.  So dit was nie die probleem met die ontfouting in die begin nie.
+
+Die probleem met die eerste probeerslag is dat dit op 'n broodbord was en dat die kontakte en die lengte van drade nie reg was nie.  Dus kon die kommunikasie nie gebeur nie.
+
+![8_SeininhoudHuisVoorbeeld](Prente\8_SeininhoudHuisVoorbeeld.JPG)
+
+## Resultate op 20221102
+
+Altwee radiosenders is nou op verobord en dit werk.
+Die een kan beter seine stuur as die ander een.  Dit is vermoedelik omdat die grond draad te lank is en te veel rondom die seindrade gedraai is.  Dus is dit 'n induktor.
+
+Met volgende iterasie gaan die borde se drade korter gemaak word om hierdie probleem te addresseer.
 
 
 ## Tutoriale vir vliegtuig afstandbeheer
