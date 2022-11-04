@@ -66,3 +66,11 @@ Probeer eers die bord met 3.3V krag gee.  Miskien gebruik die versnellingsmeter 
 Hier is die bedrading wat gedoen moet word:
 
 ![I2C_circuit](Prente\I2C_circuit.jpg)
+
+Het dit probeer.  Maar dit het nie gewerk nie.  Die 3.3V is net 'n reference spanning en nie genoeg om die versnellingsmeter krag te gee nie.
+
+
+Volgende oplossings:
+- Moet dalk 'n 3.3V Arduino Nano koop en toets of dit werk.  Dit sal genoeg krag gee.
+- Gee die Chip select 'n spanning om dit aan te skakel (dalk gaan dit nie werk nie)
+- Doen dalk SPI bedrading, maar sit die 3.3V op VIN instede van 3V3.
