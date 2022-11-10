@@ -38,9 +38,10 @@ void loop() {
   // const char text[] = "Hello World";
   // radio.write(&text, sizeof(text));
 
-  data.j1Potx - map(analogRead(A0), 0, 1023, 0, 255); // Convert the analog read value from 0 to 1023 into a BYTE value from 0 to 255
+  data.j1Potx = map(analogRead(A1), 0, 1023, 0, 255); // Convert the analog read value from 0 to 1023 into a BYTE value from 0 to 255
   radio.write(&data, sizeof(Data_Package));
-  
-  Serial.println("Sent message");
-  delay(1000);
+
+  Serial.print(data.j1Potx);
+  Serial.println(" Sent message");
+  //delay(1000);
 }

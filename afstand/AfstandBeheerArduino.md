@@ -141,6 +141,12 @@ Die een kan beter seine stuur as die ander een.  Dit is vermoedelik omdat die gr
 
 Met volgende iterasie gaan die borde se drade korter gemaak word om hierdie probleem te addresseer.
 
+## Resultate op 20221110
+
+Het nou 'n reostaat op sender gesit en dit stuur die resultate na die ontvanger.  Daar is nog 'n hele klomp van die waardes wat nie deurkom nie.
+
+Daar moet dalk 'n filter kom wat sekermaak dat as daar niks ontvang word nie, moet die waarde dieselfde bly as voorheen, behalwe as daardie tyd te lank is.
+
 
 ## Tutoriale vir vliegtuig afstandbeheer
 

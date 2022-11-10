@@ -47,8 +47,10 @@ void setup() {
 
 void loop() {
   
-    char text[32] = "Message:  ";
-    radio.read(&data, sizeof(Data_Package));
+    if(radio.available()) {
+      radio.read(&data, sizeof(Data_Package));
+    }
+    
     Serial.print("j1PotX: ");
     Serial.println(data.j1Potx);
 
