@@ -16,6 +16,13 @@ RF24 radio(7, 8); // CE, CSN
 
 const byte address[6] = "00001";
 
+// Max size of this struct is 32 bytes - NRF24L01 buffer limit
+struct Data_Package {
+  byte j1Potx;
+};
+
+Data_Package data; // Create a variable with the above struct
+
 void setup() {
   Serial.begin(9600);
   radio.begin();
@@ -28,7 +35,7 @@ void setup() {
   radio.setAutoAck(false);
   radio.setChannel(0); //select a channel (in which there is no noise!) 0 ... 125
   radio.setDataRate(RF24_250KBPS); // Lowest datarate
-  radio.setPALevel(RF24_PA_MAX);
+  radio.setPALevel(RF24_PA_MAX); // Maximum power
   radio.startListening();
 
   // For debugging info
@@ -40,9 +47,9 @@ void setup() {
 
 void loop() {
   
-    //Serial.println("Begin");
     char text[32] = "Message:  ";
-    radio.read(&text, sizeof(text));
-    Serial.println(text);
+    radio.read(&data, sizeof(Data_Package));
+    Serial.print("j1PotX: ");
+    Serial.println(data.j1Potx);
 
 }
