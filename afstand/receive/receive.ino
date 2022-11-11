@@ -18,7 +18,11 @@ const byte address[6] = "00001";
 
 // Max size of this struct is 32 bytes - NRF24L01 buffer limit
 struct Data_Package {
-  byte j1Potx;
+  byte jhei;
+  byte jgier;
+  byte jmotor;
+  byte jgierGelykLinks;
+  byte jgierGelykRegs;
 };
 
 Data_Package data; // Create a variable with the above struct
@@ -51,7 +55,17 @@ void loop() {
       radio.read(&data, sizeof(Data_Package));
     }
     
-    Serial.print("j1PotX: ");
-    Serial.println(data.j1Potx);
+  // Ontfouting uitdruk in serie monitor
+  Serial.print("jhei: ");
+  Serial.print(data.jhei);
+  Serial.print(" jgier: ");
+  Serial.print(data.jgier);
+  Serial.print(" jmotor: ");
+  Serial.print(data.jmotor);
+  Serial.print(" Links: ");
+  Serial.print(data.jgierGelykLinks);
+  Serial.print(" Regs: ");
+  Serial.print(data.jgierGelykRegs);
+  Serial.println(" Sent message");
 
 }
