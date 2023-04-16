@@ -61,7 +61,7 @@ void loop() {
   // Convert the analog read value from 0 to 1023 into a BYTE value from 0 to 255
   data.jhei = map(analogRead(A1), 0, 1023, 0, 255); 
   data.jgier = map(analogRead(A2), 0, 1023, 0, 255); 
-  data.jmotor = map(analogRead(A2), 0, 1023, 0, 255); 
+  data.jmotor = map(analogRead(A3), 0, 1023, 0, 255); 
 
   // Lees alle digitale insette
   data.jgierGelykLinks = digitalRead(jgierLinks);
