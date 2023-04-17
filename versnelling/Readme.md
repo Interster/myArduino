@@ -56,3 +56,24 @@ Dit is nodig om 'n interrupt te gebruik om die tydsberekening van metings te ver
 Interrupts word as volg met 'n Arduino gedoen:
 
 https://electronoobs.com/eng_arduino_tut140.php
+
+
+## Onderbrekings met 'n gewone Arduino Nano 
+
+https://batchloaf.wordpress.com/2022/04/04/arduino-nano-timer-1-interrupt-example-for-100-hz-sampling/
+
+
+## Onderbrekings met 'n Arduino Nano 33 IOT
+
+Lees verder oor onderbrekings met 'n Nano hier:
+
+https://forum.arduino.cc/t/arduino-nano-33-iot-timer-samd21/857555/6
+
+Die voorbeeld is in die "voorbeeldinterruptNano" skets.
+Moet dit nog probeer op die Nano.
+
+Nog 'n voorbeeld wat meer detail gee oor timer4.  Dit is blykbaar die timer van die Nano:
+https://forum.arduino.cc/t/increase-the-adc-sample-rate/701813/3
+
+Nog een oor timer4:
+https://forum.arduino.cc/t/arduino-nano-ble-timer-interrupt-in-100us/1048861
