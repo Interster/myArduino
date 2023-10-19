@@ -1,1 +1,6 @@
+# Leers om te ignoreer
 arduino_secrets.h
+
+
+# Vouers om te ignoreer
+.vs/
