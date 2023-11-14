@@ -2,6 +2,9 @@
 # From:  
 # https://wiki.python.org/moin/UdpCommunication
 
+# Stuur opdragte na die Arduino toe deur van die UDP protokol gebruik te maak.
+# Lees so die versnellings uit van 'n Arduino of stuur dit beheerinsette.
+
 
 #%%
 
