@@ -43,6 +43,13 @@ Die grond of negatief van die ronde konneksie is gekoppel aan GND op die Arduino
 
 ![ArduinoBarrel](Prente/2_ArduinoBarrelJack.jpg)
 
+## Arduino sketse
+
+| Skets | Beskrywing |
+| ----- | ----- |
+| karMotorBeheer | Beheer die motor met die L298 motorbeheerder.  Toets skets vir die motorbeheer. |
+| karWifi | Stuur boodskappe met UDP protokol na Arduino.  Dit is ontwikkeling vir die afstandbeheer van die kar. |
+
 ## Projek vordering
 
 2023-11-14:  Maak 'n kabel wat die Arduino van 'n 12V battery aandryf en die L298 motordrywer ook van 12V verskaf.
