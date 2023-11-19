@@ -58,4 +58,8 @@ Die Arduino word met 'n ronde prop van krag voorsien.
 
 ![ArduinoBarrel](Prente/4_Kabel.jpg)
 
+2023-11-19:  Koppel die L298N met 'n reostaat en die Arduino en 'n motor.  Motor kan beheer word deur reostaat.  Die kortsluiting (jumper) by ENA op die L298N was verwyder om spoedbeheer te kan doen.  Die motor was te klein vir die volle 12V, dit is eintlik 'n motor wat vir 5V geskik is.  Die toetsMotorAlleen.ino skets is gebruik hiervoor.
+
+![Motoropstelling](Prente/5_MotorOpstelling.jpg)
+
 
