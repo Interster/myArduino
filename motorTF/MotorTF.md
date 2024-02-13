@@ -22,7 +22,7 @@ Hier is die bedrading vir die Hall effek sensor:
 
 
 
-![1_HallEffekSensorBedrading](Prente\1_HallEffekSensorBedrading.jpg)
+![1_HallEffekSensorBedrading](Prente/1_HallEffekSensorBedrading.jpg)
 
 Gebruik die skets:  HallEffek.ino
 
@@ -32,8 +32,8 @@ Maak toetsopstelling op 2024-02-13.
 
 Die digitale sein is raserig, soveel so dat dit die aantal kere aan en af sal verkeerd tel.  As die sensor op 'n sekere manier neergesit word, werk dit reg, maar dis moeilik herhaalbaar.  Moet dalk 'n twisted pair vir die kragdrade maak.  Hulle het moontlik 'n magneetveld wat die sensor optel.  Die lang drade in die lug is eintlik 'n bron van elektriese velde en magneetvelde.
 
-![2_HallEffekOpstelling](Prente\2_HallEffekOpstelling.png)
+![2_HallEffekOpstelling](Prente/2_HallEffekOpstelling.png)
 
 
 
-![3_AanAf](Prente\3_AanAf.png)
+![3_AanAf](Prente/3_AanAf.png)
