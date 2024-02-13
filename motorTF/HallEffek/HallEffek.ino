@@ -20,10 +20,12 @@ void loop ()
   if (digitalVal == HIGH) // When magnetic field is present, Arduino LED is on
   {
     digitalWrite (led, HIGH);
+    Serial.println("AAN");
   }
   else
   {
     digitalWrite (led, LOW);
+    Serial.println("Af");
   }
   
   // Read the analog interface
