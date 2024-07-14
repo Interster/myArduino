@@ -22,3 +22,12 @@ Op Ubuntu is hierdie leer in:
 ```
 ~/Arduino/libraries/USB_Host_Shield_Library_2.0
 ```
+
+## Status
+
+Hierdie kode het tydelik gewerk met 'n PS3 remote en die ou bluetooth adapter.  Hierdie ou adapter is heel moontlik gebreek en gaan nie meer werk nie.
+Koop toe 'n bluetooth 5.0 adapter, maar dit het nie met die PS3 remote gewerk nie.
+Koop toe 'n bluetooth 2.0 adapter, maar dit het nie met die PS3 remote gewerk nie.
+Die bluetooth oorfone se adapter werk nie.  Het ook 'n PS3 remote kopie se adapter getoets, maar dit werk ook nie
+
+Moet nou nog 'n bluetooth 2.0 + EDR adapter koop en dit toets.
