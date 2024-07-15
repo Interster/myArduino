@@ -23,3 +23,20 @@ Hier is hoe om die Arduino Nano 33 IOT te bedraad.
 Volgende stap:  Gebruik 4 x AA 1.5V batterye en kyk of die Bluetooth dan werk:
 ![Arduino bedraad Nano](Prente\3_AA_batterye.png)
 
+
+Op 2024-07-15:  bedraad die Arduino 33 IOT aan 'n 6V (4 x AA 1.5V batterye) battery en gee krag aan die Arduino.
+
+![AA batterye Nano](Prente/4_AA_bedrading.jpg)
+
+Dit werk egter nog steeds nie.  Kry dan hierdie post:
+
+https://forum.arduino.cc/t/nano-ble-sense-bluetooth-not-working-on-battery-powersupply/641959
+
+Dit gee die raad dat die setup funksie 'n serie kommunikasie oopmaak.  As dit aan 'n battery gekoppel is, maar nie aan die rekenaar nie, dan bly hierdie 'n ondeindige lus.  Hierdie lyn moet dus uitgekommentaar word:
+
+```
+while(!Serial);
+```
+
+Na hierdie gedoen is, het die bluetooth gewerk op die 4 x AA batterye.  Daarna is die 9V battery ook getoets en dit het nog steeds gewerk.  Gebruik dus nou die 9V battery want dit is kleiner.  Hierdie skets is nou suksesvol implementeer.
+ 
