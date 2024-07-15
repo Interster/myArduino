@@ -11,7 +11,9 @@ BLEByteCharacteristic switchCharacteristic("2A57", BLERead | BLEWrite);
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+  // Moet hierdie uitkommentaar anders haak die bluetooth skets vas
+  // wanneer die Arduino aan 'n battery gekoppel word.
+  //while (!Serial);  
 
   Serial.println("Eerste begin");
 
