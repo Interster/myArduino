@@ -7,7 +7,7 @@
 # https://stackoverflow.com/questions/16077912/python-serial-how-to-use-the-read-or-readline-function-to-read-more-than-1-char
 
 import serial
-ser = serial.Serial("COM12", 9600)
+ser = serial.Serial("COM6", 9600)
 while True:
      cc=str(ser.readline())
      print(cc[2:][:-5])

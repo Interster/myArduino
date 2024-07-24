@@ -21,13 +21,14 @@ BTD Btd(&Usb); // You have to create the Bluetooth Dongle instance like so
 //PS3BT PS3(&Btd); // This will just create the instance
 //PS3BT PS3(&Btd, 0x00, 0x15, 0x83, 0x3D, 0x0A, 0x57); // This will also store the bluetooth address - this can be obtained from the dongle when running the sketch
 //PS3BT PS3(&Btd, 0x00, 0xE0, 0x4C, 0x23, 0x99, 0x87); // This will also store the bluetooth address - this can be obtained from the dongle when running the sketch
-PS3BT PS3(&Btd, 0x00, 0x1A, 0x7D, 0xDA, 0x71, 0x13); // This will also store the bluetooth address - this can be obtained from the dongle when running the sketch
+PS3BT PS3(&Btd, 0x04, 0x7F, 0x0E, 0x65, 0x05, 0x9A); // This will also store the bluetooth address - this can be obtained from the dongle when running the sketch
 //PS3 is bluetooth version 2.0+EDR (enhanced data rate)  Dus werk net die ou USB.
+
 
 bool printTemperature, printAngle;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 #if !defined(__MIPSEL__)
   while (!Serial); // Wait for serial port to connect - used on Leonardo, Teensy and other boards with built-in USB CDC serial connection
 #endif
