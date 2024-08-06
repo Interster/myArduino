@@ -1,6 +1,6 @@
 # Leers om te ignoreer
 arduino_secrets.h
-
+data.xls
 
 # Vouers om te ignoreer
 .vs/

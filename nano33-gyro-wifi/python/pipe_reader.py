@@ -8,7 +8,7 @@ print("Starting")
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # s.connect(("localhost", 1234))
 print("Connecting")
-s.connect(("172.16.16.215", 1234))
+s.connect(("192.168.9.169", 1234))
 
 print("Sending")
 s.send("Start".encode())
@@ -30,7 +30,7 @@ try:
                 print(f"Error {data}" )
         else:
             print("Nothing")
-        if time.time() - start > 100:
+        if time.time() - start > 30:
             break
 except KeyboardInterrupt:
     print("User stopped")
