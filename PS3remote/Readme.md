@@ -31,3 +31,5 @@ Koop toe 'n bluetooth 2.0 adapter, maar dit het nie met die PS3 remote gewerk ni
 Die bluetooth oorfone se adapter werk nie.  Het ook 'n PS3 remote kopie se adapter getoets, maar dit werk ook nie
 
 Moet nou nog 'n bluetooth 2.0 + EDR adapter koop en dit toets.
+
+Het 3 verskillende adapters gekoop en getoets.  Die nuwe adapters werk nie een nie.  Die ou een werk so 'n bietjie.  Dit het Bluetooth 1.1 op en kan die PS3 controller lees.  Die Linux rekenaar werk saam met die nuwe adapters en die PS3 controller.  Dit lyk dus of die shield nie werk saam met die adapters nie.  Dalk werk 'n nuwe shield beter.  Maar besluit om die PS3 controller in die rekenaar in te prop en dit met python in te lees.  Stuur dan opdragte na 'n Arduino toe om 'n kar te beheer.
