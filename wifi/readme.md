@@ -26,3 +26,9 @@ Onthou dit moet as volg in die hoofskets ingesluit word, anders werk dit nie:
 ```
 
 Die arduino_secrets.h lêer moet in dieselfde plek wees as die Arduino skets.
+
+
+
+
+Die UDP protokol word gebruik want dit is beter vir tyd sensitiewe data soos beheerinsette.
+Stuur data vanaf python na die UDP socket.
