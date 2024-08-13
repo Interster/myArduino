@@ -21,10 +21,11 @@ https://docs.arduino.cc/retired/library-examples/wifi-library/WiFiUdpSendReceive
 #include <SPI.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
+#include "arduino_secrets.h"
 
 int status = WL_IDLE_STATUS;
-char ssid[] = "yourNetwork"; //  your network SSID (name)
-char pass[] = "secretPassword";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = SECRET_SSID;      // Wifi SSID
+char pass[] = SECRET_PASS;      // Wifi password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 unsigned int localPort = 2390;      // local port to listen on
@@ -76,7 +77,7 @@ void setup() {
 
     // Connect to WPA/WPA2 network. Change this line if using open or WEP network:
 
-    status = WiFi.begin(ssid);
+    status = WiFi.begin(ssid, pass);
 
     // wait 10 seconds for connection:
 

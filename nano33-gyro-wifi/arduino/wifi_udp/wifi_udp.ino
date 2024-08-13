@@ -44,11 +44,11 @@ void setup() {
 
   Serial.begin(9600);
 
-  while (!Serial) {
+  //while (!Serial) {
 
-    ; // wait for serial port to connect. Needed for native USB port only
+  //  ; // wait for serial port to connect. Needed for native USB port only
 
-  }
+  //}
 
   // check for the presence of the shield:
 
@@ -91,7 +91,7 @@ void setup() {
       }
     }
   }
-  WiFi.config(IPAddress(172, 16, 16, 215));
+  WiFi.config(IPAddress(192, 168, 9, 169));
 
   Serial.println("Connected to wifi");
 
@@ -136,11 +136,11 @@ void loop() {
 
       Udp.endPacket();
 
-      // Serial.print(x);
-      // Serial.print('\t');
-      // Serial.print(y);
-      // Serial.print('\t');
-      // Serial.println(z);
+      Serial.print(x);
+      Serial.print('\t');
+      Serial.print(y);
+      Serial.print('\t');
+      Serial.println(z);
     }
   }
   else { 

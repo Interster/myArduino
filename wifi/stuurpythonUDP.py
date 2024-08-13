@@ -3,10 +3,11 @@
 import socket
 
 
-UDP_IP = "127.0.0.1"
-UDP_PORT = 5005
+UDP_IP = "192.168.8.60"
+UDP_PORT = 2390
 MESSAGE = b"Hello, World!"
- 
+MESSAGE = b"Praat met PS3"
+
 print("UDP target IP: %s" % UDP_IP)
 print("UDP target port: %s" % UDP_PORT)
 print("message: %s" % MESSAGE)
