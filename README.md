@@ -2,7 +2,7 @@
 Versameling van persoonlike Arduino projekte
 
 
-# Beheerstelsels
+## Beheerstelsels
 
 Implementering van PID beheer in Arduino.
 
@@ -51,4 +51,43 @@ double computePID(double inp){
  
         return out;                                        //have function return the PID output
 }
+```
+
+## Probleme teegekom
+
+### Probleem met skryfregte na die /dev/ttyACM0
+
+
+To confirm the port exists enter the following from the root directory.
+
+```
+ls /dev/ttyACM0
+```
+
+To set read/write permissions, enter the following
+
+```
+sudo chmod a+rw /dev/ttyACM0
+```
+
+Doen dit in die terminaal in 'n gids waar die Arduino IDE is.
+Daarna voer die volgende uit:
+
+```
+./arduino-ide
+```
+
+### Probleem om Nano IOT33 te koppel:
+
+Sukkel om die Arduino Nano IOT33 te koppel:
+
+The problem is that pop-desktop comes with (and depends on) brltty, a package for working in brail. When you plug in an arduino, it detects it as a brail device, tries to connect to it, fails, and then gets stuck.
+
+To fix it, disable brltty following this comment:
+
+```
+systemctl stop brltty-udev.service  
+sudo systemctl mask brltty-udev.service  
+systemctl stop brltty.service  
+systemctl disable brltty.service
 ```
