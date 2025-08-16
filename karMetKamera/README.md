@@ -62,4 +62,8 @@ Die Arduino word met 'n ronde prop van krag voorsien.
 
 ![Motoropstelling](Prente/5_MotorOpstelling.jpg)
 
+2025-08-16:  Verander die projek laat die kar beheer word deur 'n ESP32.  Die afstandbeheer moet 'n PS3 remote wees.  Dit moet nog steeds opdragte deur Wifi kan ontvang.  Die ESP32 is al met 'n PS3 remote gekoppel maar nog niks is verder gedoen nie.  Gebruik die volgende artikel om dit te doen:
 
+Onthou dat die ouer weergawe van die ESP sagteware gebruik moet word.  Anders werk die sketse nie.
+
+https://dronebotworkshop.com/ps3-esp32/

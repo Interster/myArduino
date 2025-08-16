@@ -1,3 +1,7 @@
+**Opdatering:  2025-08-16:  Gebruik dalk eerder die PS3 met die ESP32 om 'n joystick te bou**
+
+
+
 The latest build of Version 2.0 of the Arduino Joystick Library can be downloaded from the following GitHub repository:
 
 https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-2.0
@@ -6,19 +10,19 @@ The library can also be downloaded directly using the following: https://github.
 
 Copy the Joystick folder to the Arduino Libraries folder (typically located at %userprofile%\Documents\Arduino\libraries on Microsoft Windows machines). On Microsoft Windows machines this can be done by executing deploy.bat. The library should now appear in the Arduino IDE list of libraries.
 
-![Circuit-Diagram-for-Joystick-Game-Controller-using-Arduino-Leonardo](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\Circuit-Diagram-for-Joystick-Game-Controller-using-Arduino-Leonardo.png)
+![Circuit-Diagram-for-Joystick-Game-Controller-using-Arduino-Leonardo](Prente\Circuit-Diagram-for-Joystick-Game-Controller-using-Arduino-Leonardo.png)
 
-![Arduino-Joystick-Game-Controller](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\Arduino-Joystick-Game-Controller.png)
+![Arduino-Joystick-Game-Controller](Prente\Arduino-Joystick-Game-Controller.png)
 
 
 
-![Circuit-Hardware-for-Joystick-Game-Controller-using-Arduino-Leonardo](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\Circuit-Hardware-for-Joystick-Game-Controller-using-Arduino-Leonardo.jpg)
+![Circuit-Hardware-for-Joystick-Game-Controller-using-Arduino-Leonardo](Prente\Circuit-Hardware-for-Joystick-Game-Controller-using-Arduino-Leonardo.jpg)
 
-![JoyStickLibraryFunctions](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\JoyStickLibraryFunctions.png)
+![JoyStickLibraryFunctions](Prente\JoyStickLibraryFunctions.png)
 
 The following PS3 type resistors can be obtained from old PS3 remotes:
 
-![SPIPP007_nash-4l](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\SPIPP007_nash-4l.jpg)
+![SPIPP007_nash-4l](Prente\SPIPP007_nash-4l.jpg)
 
 
 
@@ -40,15 +44,15 @@ The example Arduino sketch files listed below are included in this library. Thes
 
 **HatSwitchTest** - Creates a joystick with two hat switches. Grounding pins 4 - 11 cause the hat switches to change position.
 
-![DevicesPrinters](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\DevicesPrinters.png)
+![DevicesPrinters](Prente\DevicesPrinters.png)
 
-![SettingsJoystick](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\SettingsJoystick.png)
+![SettingsJoystick](Prente\SettingsJoystick.png)
 
-![Properties](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\Properties.png)
+![Properties](Prente\Properties.png)
 
 
 
-![PropertiesSetup](C:\WPy64-3800\notebooks\myArduino\joystick\Prente\PropertiesSetup.png)
+![PropertiesSetup](Prente\PropertiesSetup.png)
 
 
 
