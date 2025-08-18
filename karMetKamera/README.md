@@ -62,6 +62,7 @@ Die Arduino word met 'n ronde prop van krag voorsien.
 
 ![Motoropstelling](Prente/5_MotorOpstelling.jpg)
 
+<<<<<<< HEAD
 2025-04-19:  Verander die detail ontwerp om eerder te werk met 'n ESP32.  Die ESP32 het 'n module om die PS3 as 'n afstandbeheer te gebruik wat met Bluetooth werk.
 
 Die volgende skakel is gebruik vir die idee en die drywer van die ESP:
@@ -89,3 +90,10 @@ Die volgende laers is identifiseer en aangekoop vir die ratkas van die kar:
 https://www.robotics.org.za/683ZZ
 
 ![8_LaersRatkas](Prente/8_LaersRatkas.png)
+=======
+2025-08-16:  Verander die projek laat die kar beheer word deur 'n ESP32.  Die afstandbeheer moet 'n PS3 remote wees.  Dit moet nog steeds opdragte deur Wifi kan ontvang.  Die ESP32 is al met 'n PS3 remote gekoppel maar nog niks is verder gedoen nie.  Gebruik die volgende artikel om dit te doen:
+
+Onthou dat die ouer weergawe van die ESP sagteware gebruik moet word.  Anders werk die sketse nie.
+
+https://dronebotworkshop.com/ps3-esp32/
+>>>>>>> 18b5605875c4cce08679aedfdc1e394c5b7a9554

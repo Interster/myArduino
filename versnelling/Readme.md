@@ -29,7 +29,7 @@ The 3 axis ADXL335 from Analog Devices is the latest in a long,  proven line of 
 
 # Bespreking van filter
 
-Dit is nodig om 'n filter op te sit om die effek van ho"e frekwensie geraas te verminder.
+Dit is nodig om 'n filter op te sit om die effek van hoë frekwensie geraas te verminder.
 
 ![FilterEffek](Prente/FilterEffek.png)
 
