@@ -45,10 +45,10 @@ Die grond of negatief van die ronde konneksie is gekoppel aan GND op die Arduino
 
 ## Arduino sketse
 
-| Skets | Beskrywing |
-| ----- | ----- |
+| Skets          | Beskrywing                               |
+| -------------- | ---------------------------------------- |
 | karMotorBeheer | Beheer die motor met die L298 motorbeheerder.  Toets skets vir die motorbeheer. |
-| karWifi | Stuur boodskappe met UDP protokol na Arduino.  Dit is ontwikkeling vir die afstandbeheer van die kar. |
+| karWifi        | Stuur boodskappe met UDP protokol na Arduino.  Dit is ontwikkeling vir die afstandbeheer van die kar. |
 
 ## Projek vordering
 
@@ -62,4 +62,30 @@ Die Arduino word met 'n ronde prop van krag voorsien.
 
 ![Motoropstelling](Prente/5_MotorOpstelling.jpg)
 
+2025-04-19:  Verander die detail ontwerp om eerder te werk met 'n ESP32.  Die ESP32 het 'n module om die PS3 as 'n afstandbeheer te gebruik wat met Bluetooth werk.
 
+Die volgende skakel is gebruik vir die idee en die drywer van die ESP:
+
+Dronebot workshop het die idee en skakels gegee:
+
+https://dronebotworkshop.com/ps3-esp32/
+
+Hier is die repository vir die PS3 se koppeling:
+
+https://github.com/jvpernis/esp32-ps3
+
+Baie belangrik:  Die PS3 repo is hele paar jaar oud.  Dus werk dit nie met die nuutste Espressif sagteware nie, dus rol die sagteware in die Boards Manager terug na 3.0.0.  Dan vertaal die skets.  Andersins werk dit nie.
+
+![6_ESP32_weergawe](Prente/6_ESP32_weergawe.png)
+
+Dit was hierdie ESP32:
+
+https://www.robotics.org.za/ESP32-DEV-CH340-C?search=esp32
+
+![7_ESP32_weergawe](Prente/7_ESP32.png)
+
+Die volgende laers is identifiseer en aangekoop vir die ratkas van die kar:
+
+https://www.robotics.org.za/683ZZ
+
+![8_LaersRatkas](Prente/8_LaersRatkas.png)
