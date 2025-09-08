@@ -91,3 +91,12 @@ sudo systemctl mask brltty-udev.service
 systemctl stop brltty.service  
 systemctl disable brltty.service
 ```
+
+
+### Probleem om PS3 outomaties te koppel in Linux:
+
+Linux vra 'n pairing kode en dit moenie as jy 'n PS3 remote met bluetooth koppel.  Om dit reg te maak, raadpleeg die volgende artikel:
+
+https://askubuntu.com/questions/1497783/why-does-official-ps3-bluetooth-controller-no-longer-work-and-pin-code-suddenly
+
+Basically in  `/etc/bluetooth/input.conf` add `ClassicBondedOnly=false` and run `systemctl restart bluetooth`. Solved it instantly :)
