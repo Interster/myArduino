@@ -91,7 +91,7 @@ void setup() {
       }
     }
   }
-  WiFi.config(IPAddress(192, 168, 9, 169));
+  WiFi.config(IPAddress(192, 168, 8, 119));
 
   Serial.println("Connected to wifi");
 

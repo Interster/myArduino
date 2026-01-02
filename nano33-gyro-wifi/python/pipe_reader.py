@@ -8,7 +8,7 @@ print("Starting")
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # s.connect(("localhost", 1234))
 print("Connecting")
-s.connect(("192.168.9.169", 1234))
+s.connect(("192.168.8.119", 1234))
 
 print("Sending")
 s.send("Start".encode())
@@ -30,7 +30,7 @@ try:
                 print(f"Error {data}" )
         else:
             print("Nothing")
-        if time.time() - start > 30:
+        if time.time() - start > 120:
             break
 except KeyboardInterrupt:
     print("User stopped")
@@ -38,7 +38,8 @@ except KeyboardInterrupt:
 try:
     s.close()
     print("closed successfully")
-    df.to_excel("data.xlsx", index=False)
+    #df.to_excel("data.xlsx", index=False)
+    df.to_csv("data.csv", index=False)
 except OSError:
     pass
 
