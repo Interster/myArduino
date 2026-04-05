@@ -11,15 +11,22 @@
 * See  for details.
 * All above must be included in any redistribution
 * ****************************************************/
-int Liquid_level=0;
+int Liquid_level_top=0;
+int Liquid_level_bottom=0;
+
 void setup() {
  Serial.begin(9600);
- pinMode(5,INPUT);
+ pinMode(5,INPUT); // Vloeistofvlak bolimiet
+ pinMode(6,INPUT); // Vloeistofvlak onderlimiet
 }
 
 void loop() {
-Liquid_level=digitalRead(5);
-Serial.print("Liquid_level= ");
-Serial.println(Liquid_level,DEC);
+Liquid_level_top=digitalRead(5);
+Liquid_level_bottom=digitalRead(5);
+Serial.print("Bo limiet= ");
+Serial.print(Liquid_level_top,DEC);
+Serial.print(" Onder limiet= ");
+Serial.println(Liquid_level_bottom,DEC);
+
 delay(500);
 }
