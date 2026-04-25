@@ -67,6 +67,7 @@ plt.plot(df_segment['Time_s'], df_segment['Roll (degrees/second)'])
 plt.plot(df_segment['Time_s'], df_segment['Pitch (degrees/second)'])
 plt.plot(df_segment['Time_s'], df_segment['Yaw (degrees/second)'])
 
+# Verwyder die gestadigde fout of die vooroordeel van die data
 
 plt.title(f'Hoektempo teen Tyd ({frekwensie_hz}Hz)')
 plt.xlabel('Tyd (sekondes)')
@@ -81,10 +82,10 @@ plt.show()
 # %%
 # Verwyder die gestadigde fout of die vooroordeel van die data
 
-# Veronderstel die eerste 100 lesings was terwyl die vliegtuig stilgestaan het
-bias_rol = df['Roll (degrees/second)'].iloc[0:200].mean()
-bias_hei = df['Pitch (degrees/second)'].iloc[0:200].mean()
-bias_gier = df['Yaw (degrees/second)'].iloc[0:200].mean()
+# Veronderstel die eerste 2000 lesings was terwyl die vliegtuig stilgestaan het
+bias_rol = df['Roll (degrees/second)'].iloc[0:2000].mean()
+bias_hei = df['Pitch (degrees/second)'].iloc[0:2000].mean()
+bias_gier = df['Yaw (degrees/second)'].iloc[0:2000].mean()
 
 # Trek die bias af van die rou data
 df['Rol_Skoon'] = df['Roll (degrees/second)'] - bias_rol
@@ -107,4 +108,34 @@ plt.legend()
 plt.grid(True)
 
 plt.show()
+# %%
+# Plot net die geraas van die stilstaande gedeelte van die giro
+
+# Verwyder die gestadigde fout of die vooroordeel van die data
+
+# Veronderstel die eerste 2000 lesings was terwyl die vliegtuig stilgestaan het
+# Neem aan bostaande kode is geloop en die vooroordeel is reeds weg.
+
+# Kies net data tussen 5.5 sekondes en 12.0 sekondes
+begin_tyd = 1.0
+eind_tyd = 10.0
+
+masker = (df['Time_s'] >= begin_tyd) & (df['Time_s'] <= eind_tyd)
+df_segment = df.loc[masker]
+
+# Plot nou net die segment
+plt.plot(df_segment['Time_s'], df_segment['Roll_Angle']*60)
+plt.plot(df_segment['Time_s'], df_segment['Pitch_Angle']*60)
+plt.plot(df_segment['Time_s'], df_segment['Yaw_Angle']*60)
+
+# Verwyder die gestadigde fout of die vooroordeel van die data
+
+plt.title(f'Hoek teen Tyd (hoekminute)')
+plt.xlabel('Tyd (sekondes)')
+plt.ylabel('Hoek (hoekminute)')
+plt.legend()
+plt.grid(True)
+
+plt.show()
+
 # %%
